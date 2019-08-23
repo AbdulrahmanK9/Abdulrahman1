@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-image: url("bookmain.jpg");
+  background-size: cover;
+  height: 650px; }
+
+nav ul li {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  width: 150px;
+  padding: 10px;
+  display: inline-block;
+  border-right: 2px solid black; }
+  nav ul li:hover {
+    transition: background-color 1s,color 2s;
+    color: white;
+    background-color: #0c3633; }
+
+.containersub {
+  height: 300px;
+  width: 300px;
+  margin-left: 450px;
+  margin-top: 20px; }
+  .containersub .sub {
+    display: none;
+    font-size: 20px; }
+    .containersub .sub #las {
+      border-bottom: none; }
+    .containersub .sub li {
+      background-color: white;
+      list-style-type: none;
+      width: 130px;
+      padding: 5px;
+      border-bottom: 1px solid black; }
+      .containersub .sub li:hover {
+        background-color: black;
+        color: white; }
+
+.right {
+  float: right;
+  margin-top: -75px;
+  margin-right: 5px; }
+
+h1 {
+  text-align: center; }
+
+/*# sourceMappingURL=first1.css.map */
